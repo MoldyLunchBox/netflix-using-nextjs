@@ -1,6 +1,10 @@
+import { Movie } from "@/typings"
 
-
-function Row() {
+interface Props{
+    title: string
+    movies: Movie[]
+}
+function Row({title, movies}: Props) {
   return (
     <div>Row</div>
   )
