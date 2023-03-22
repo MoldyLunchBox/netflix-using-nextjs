@@ -9,6 +9,6 @@ module.exports = nextConfig
 // next.config.js
 module.exports = {
   images: {
-    domains: ['image.tmdb.org'],
+    domains: ['assets.nflxext.com', 'image.tmdb.org'],
   },
 }
